@@ -1,6 +1,6 @@
 ﻿namespace AplicacionComercial
 {
-    partial class Form1
+    partial class FrmLogin
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,10 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            SuspendLayout();
+            // 
+            // FrmLogin
+            // 
+            AutoScaleDimensions = new SizeF(12F, 30F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 450);
+            Name = "FrmLogin";
+            Text = "Form1";
+            ResumeLayout(false);
         }
 
         #endregion
